@@ -1,5 +1,10 @@
 {
   "name": "dads-algorithm",
+  "icons": [
+    {
+      "src": "src/favicon-coins.ico"
+    }
+  ],
   "homepage": "https://adam-pog.github.io/dads-algorithm/",
   "version": "0.1.0",
   "private": true,

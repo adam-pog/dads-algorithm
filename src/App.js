@@ -7,7 +7,6 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [loadNumbers, setLoadNumbers] = useState(false);
 
-  
   const audio = new Audio(thx)
 
   useEffect(() => {
@@ -17,7 +16,6 @@ function App() {
 
     const intervalId = setInterval(() => setLoading(false), 14500)
     
-    console.log('here')
     return () => {
       clearInterval(intervalId)
     }
