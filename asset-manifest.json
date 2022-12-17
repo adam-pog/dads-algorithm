@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dads-algorithm/static/css/main.87e03c59.css",
+    "main.js": "/dads-algorithm/static/js/main.29edd3c9.js",
+    "static/js/787.4bae9f0a.chunk.js": "/dads-algorithm/static/js/787.4bae9f0a.chunk.js",
+    "static/media/thx.mp3": "/dads-algorithm/static/media/thx.b98f7f0f3991f9b524e4.mp3",
+    "index.html": "/dads-algorithm/index.html",
+    "main.87e03c59.css.map": "/dads-algorithm/static/css/main.87e03c59.css.map",
+    "main.29edd3c9.js.map": "/dads-algorithm/static/js/main.29edd3c9.js.map",
+    "787.4bae9f0a.chunk.js.map": "/dads-algorithm/static/js/787.4bae9f0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e03c59.css",
+    "static/js/main.29edd3c9.js"
+  ]
+}
