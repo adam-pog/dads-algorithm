@@ -1,0 +1,55 @@
+.numbers-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: x-large;
+}
+
+.slow1 {
+    animation: slowAppear 3s;
+    padding: 0.1%;
+}
+
+.slow2 {
+    animation: slowAppear 6s;
+    padding: 0.1%;
+}
+
+.slow3 {
+    animation: slowAppear 9s;
+    padding: 0.1%;
+}
+
+.slow4 {
+    animation: slowAppear 12s;
+    padding: 0.1%;
+}
+
+.slow5 {
+    animation: slowAppear 15s;
+    padding: 0.1%;
+}
+
+.slow6 {
+    text-align: center;
+    padding: 1px;
+    border-radius: 60%;
+    border-color: white;
+    border: solid;
+    border-width: 1px;
+    animation: slowAppear 17s;
+}
+
+
+@keyframes slowAppear {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1 }
+  }
