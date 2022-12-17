@@ -11,7 +11,7 @@ function App() {
   const audio = new Audio(thx)
 
   useEffect(() => {
-    if (loading == true) {
+    if (loading === true) {
       setLoadNumbers(true)
     }
 
@@ -32,7 +32,8 @@ function App() {
 
   return (
     <div className='container'>
-      <div className='header'><h1>THE ALGORITHM</h1></div>
+      <div><h1 className='header'>THE ALGORITHM</h1></div>
+      <p className='disclaimer'>*guaranteed odds of 1 in 302,575,350</p>
       <div className="App">
         {
           !loading && (
@@ -41,16 +42,14 @@ function App() {
         }
         {
           loading && (
-            <div className="atom-loader">
-            <div className="atom-inner atom-one"></div>
-            <div className="atom-inner atom-two"></div>
-            <div className="atom-inner atom-three"></div>
-            <div className="atom-inner atom-four"></div>
-            {/* <div className="atom-inner atom-center-one"></div>
-            <div className="atom-inner atom-center-two"></div>
-            <div className="atom-inner atom-center-three"></div>
-            <div className="atom-inner atom-center-four"></div> */}
-          </div>            
+            <div>
+              <div className="atom-loader">
+                <div className="atom-inner atom-one"></div>
+                <div className="atom-inner atom-two"></div>
+                <div className="atom-inner atom-three"></div>
+                <div className="atom-inner atom-four"></div>
+              </div>  
+            </div>          
           )
         }
       </div>
@@ -58,7 +57,7 @@ function App() {
           { loadNumbers && (
             <Numbers />
           )}
-        </div>
+      </div>
     </div>
   );
 }
